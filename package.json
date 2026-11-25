@@ -1,0 +1,76 @@
+{
+  "name": "zollde-exchange-rate",
+  "version": "1.3.32",
+  "description": "Official German Customs (Zoll) (Germany) monthly exchange rates — 119 currencies vs EUR, history since 2004. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "zollde",
+    "german-customs-zoll",
+    "german",
+    "customs",
+    "zoll",
+    "exchange-rate",
+    "exchange-rates",
+    "exchange-rate-api",
+    "exchangerate",
+    "exchange rate",
+    "exchange rates",
+    "eur-exchange-rate",
+    "currency",
+    "forex",
+    "fx",
+    "eur",
+    "currency-api",
+    "currency-exchange-rates",
+    "forex-api",
+    "currency-conversion",
+    "currency-exchange",
+    "currency-rates",
+    "tax-authority",
+    "official-rates",
+    "germany",
+    "api",
+    "typescript",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "accounting",
+    "utilities",
+    "number",
+    "cart",
+    "ecommerce"
+  ],
+  "homepage": "https://allratestoday.com/tax-authority-rates-api/zollde/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/zollde-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/zollde-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
